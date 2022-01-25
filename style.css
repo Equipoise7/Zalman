@@ -1,0 +1,227 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/bgc.png');
+}
+
+/* Шапка Сайта =================================================================================== */
+
+.wrapper {
+    background: url('img/zalman-main.png') no-repeat;  
+    overflow: hidden;  
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header {
+    max-width: 1760px;
+    margin: 40px 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vector-img:hover {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 50%;
+    margin-top: 3px;
+    transition: 1s;
+}
+
+nav {
+    margin-left: 200px;
+}
+
+.nav {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 56px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.nav-link:hover {
+  color: #C89AFC;
+  transition: 0.5s;
+}
+
+.header button {
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+    border: none; 
+    padding: 13px 31px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.header button:hover {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    box-shadow: 1px 05px 3px #a14fff;
+    margin-top: 3px;
+    transition: 0.5s;
+}
+
+/* Меню шапки ========================================================================================*/
+
+.header-main {
+    margin-top: 188px;
+    margin-left: 312px;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 89.6px;
+    margin: 0 0 50px;
+}
+
+.block-time {
+    display: flex;
+}
+
+.time-item {
+    background-color: #121212;
+    width: 102px;
+    height: 112px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-item h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+}
+
+.time-item p {
+    color: #ffffff;
+    opacity: 40%;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 25px;
+}
+
+/* Подвал шапки ================================================================================*/
+
+.footer-header {
+    width: 1920px;
+    height: 130px;
+    margin-top: 218px;
+    background-color: #121212;
+    display: flex;
+}
+
+.footer-header-block {
+    max-width: 1290px;
+    margin: 0 312px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-header-block button {
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+    border: none; 
+    padding: 13px 31px;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footer-header-block button:hover {
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    box-shadow: 1px 05px 3px #DF5950;
+    margin-top: 3px;
+    transition: 0.5s;
+}
+
+.footer-title-block {
+    margin-left: 81px;
+    opacity: 40%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.title-block-numbers {
+    margin-left: 30px;
+    color: #ffffff;
+    opacity: initial;
+}
+
+.loading-block {
+    margin-left: 81px;
+}
+
+.loading-block-item1 {
+    display: flex;
+    align-items: center;
+}
+
+.loading-block-item1 span {
+    margin-right: 30px;
+    margin-bottom: 7px;
+}
+
+.loading-block-item2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.progress{
+    position: relative;
+    height: 6px;
+    width: 714px;
+    background: white;
+}
+.progress .color{
+    position: absolute;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    width: 0px;
+    height: 6px;
+    animation: progres 4s infinite linear; 
+    animation-iteration-count: 1;   
+    animation-fill-mode: forwards;
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 50%;
+    }
+    50%{
+        width: 75%;
+    }
+    75%{
+        width: 85%;
+    }
+    100%{
+        width: 100%;
+    }
+};
+
+/* Основная часть контента ===================================================== */
+ 
+
+
