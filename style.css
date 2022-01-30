@@ -405,6 +405,20 @@ h1 {
     text-align: center;
 }
 
+.program-title .img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    animation: rotate .5s linear infinite;
+}
+
+.program-title .img img{
+    width: 100%;
+}
+
+
 .program-title h6 {
     font-weight: 700;
     font-size: 48px;
