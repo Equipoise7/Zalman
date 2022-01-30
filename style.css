@@ -274,16 +274,26 @@ h1 {
     margin-top: 200px;
 }
 
+.start-block-keyframes {
+    display: flex;
+    align-items: center;
+}
+
+.start-block-keyframes .img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    animation: rotate .5s linear infinite;
+}
+
 .start-block h2 {
     display: flex;
     align-items: center;
     font-weight: 700;
     font-size: 48px;
-}
-
-.start-block h2::before {
-    content: url('img/Ellipse\ 1\ \(Stroke\).png');
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .start-block p {
@@ -356,11 +366,22 @@ h1 {
     align-items: center;
     font-weight: 700;
     font-size: 48px;
+    margin: 0 40px;
 }
 
-.partners h6::before {
-    content: url('img/Ellipse\ 2\ \(Stroke\).png');
-    margin-right: 51px;
+.partners-keyframes {
+    display: flex;
+    text-align: center;
+    margin-bottom: 89px;
+}
+
+.partners-keyframes .img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    animation: rotate .5s linear infinite;
 }
 
 .partners-block {
@@ -411,13 +432,22 @@ h1 {
     align-items: flex-end;
     width: 100px;
     height: 100px;
+    margin: 0 auto;
     animation: rotate .5s linear infinite;
 }
 
-.program-title .img img{
+.img img {
     width: 100%;
 }
 
+@keyframes rotate{
+     0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 .program-title h6 {
     font-weight: 700;
@@ -507,11 +537,21 @@ h1 {
 .teachers h6 {
     font-weight: 700;
     font-size: 48px;
+    margin-left: 40px;
 }
 
-.teachers h6::before {
-    content: url('img/Ellipse\ 4\ \(Stroke\).png');
-    margin-right: 38px;
+.teachers-keyframes {
+    display: flex;
+    align-items: center;
+}
+
+.teachers-keyframes .img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100px;
+    height: 100px;
+    animation: rotate .5s linear infinite;
 }
 
 .teachers-block-items {
